@@ -59,7 +59,7 @@ $$
 Distributed security implements a Multi-Party Computation threshold system using Shamir Secret Sharing, where a master secret key is split into fragments with resilience against compromise. The policy $\pi$ for this system maximizes the expected discounted future reward:
 
 $$
-\pi^* = \underset{\pi}{\argmax} ~ \mathbb{E}\left[\sum_t \gamma^t R(s_t,\pi(s_t))\right]
+\pi^* = \underset{\pi} \arg\max ~ \mathbb{E}\left[\sum_t \gamma^t R(s_t,\pi(s_t))\right]
 $$
 
 where $\gamma \in [0,1]$ is the discount factor.
